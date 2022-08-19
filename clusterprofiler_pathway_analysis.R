@@ -1,11 +1,11 @@
 #Function to run Cluster profiler on a Peaks output 
-#gseGO, gseKEGG and Pathway visulisation with pathview
-#libraries required in the r = 
+#gseGO, gseKEGG and Pathway visualisation with pathview
+#libraries required in the r include:
 #library(clusterProfiler)
 #library(enrichplot)
 #library(pathview)
 #library(tidyverse)
-#input peaks file needs a column called log2fold and gene_name
+#input peaks file needs a column called log2fold, Accession and Gene_name
 #pAdjustMethod one of “holm”, “hochberg”, “hommel”, “bonferroni”, “BH”, “BY”, “fdr”, “none”
 require("org.Hs.eg.db", character.only = T)
 
